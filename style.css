@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300&family=Roboto:wght@100;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container {
+  margin: 0 100px;
+}
+
+.text {
+  padding: 38px 170px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.text h3 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 18px;
+}
+
+.text p {
+  font-size: 16px;
+  font-family: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 18.75px;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+  margin-top: 40px;
+}
+
+.col-4 {
+  width: 33.33333%;
+  max-width: 416px;
+  min-width: 380px;
+}
+
+.col-4 h2 {
+  margin-bottom: 18px;
+}
+
+.item {
+  display: flex;
+}
+
+@media screen and (max-width: 574px) {
+  .container {
+    margin: 0 10px;
+  }
+
+  .text {
+    padding: 0;
+  }
+
+  .col-4 {
+    width: 100%;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    margin: 0 10px;
+  }
+
+  .text {
+    padding: 0;
+  }
+
+  .col-4 {
+    width: 50%;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+}
